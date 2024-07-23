@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dark Theme Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-white">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="calculator card bg-secondary mt-5">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-white">Calculator</h2>
+                        <input type="text" class="calculator-screen form-control mb-3 bg-dark text-white" value="" disabled />
+                        <div class="calculator-keys">
+                            <div class="row mb-2">
+                                <button type="button" class="btn btn-info col" value="+">+</button>
+                                <button type="button" class="btn btn-info col" value="-">-</button>
+                                <button type="button" class="btn btn-info col" value="*">&times;</button>
+                                <button type="button" class="btn btn-info col" value="/">&divide;</button>
+                            </div>
+                            <div class="row mb-2">
+                                <button type="button" class="btn btn-light col" value="7">7</button>
+                                <button type="button" class="btn btn-light col" value="8">8</button>
+                                <button type="button" class="btn btn-light col" value="9">9</button>
+                            </div>
+                            <div class="row mb-2">
+                                <button type="button" class="btn btn-light col" value="4">4</button>
+                                <button type="button" class="btn btn-light col" value="5">5</button>
+                                <button type="button" class="btn btn-light col" value="6">6</button>
+                            </div>
+                            <div class="row mb-2">
+                                <button type="button" class="btn btn-light col" value="1">1</button>
+                                <button type="button" class="btn btn-light col" value="2">2</button>
+                                <button type="button" class="btn btn-light col" value="3">3</button>
+                            </div>
+                            <div class="row mb-2">
+                                <button type="button" class="btn btn-light col" value="0">0</button>
+                                <button type="button" class="btn btn-secondary col" value=".">.</button>
+                                <button type="button" class="btn btn-danger col" value="all-clear">AC</button>
+                            </div>
+                            <div class="row">
+                                <button type="button" class="btn btn-primary col" value="=">=</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
